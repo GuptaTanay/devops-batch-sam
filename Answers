@@ -1,0 +1,11 @@
+How to install pandas
+Pip install pandas
+How to check pandas version
+pd. __version__
+How to check all the functions in pandas
+dir()
+How many months are there and their values
+Print(df2.month_count())
+Print (df2['MAY'].unique())
+Unique values based on age group
+Print(df2['AGE GROUP'].unique())
