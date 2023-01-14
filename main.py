@@ -26,10 +26,10 @@ Created on Wed Jan 11 22:05:29 2023
 #     df2[col] = df2[col].str.upper()
     
     
-# h.w. --> 1. how to install pandas?
-# 2. check pandas version?
-# 3. how to list all the functions in pandas module?
-# 4. how to print all the columns which are not object data type?
+# h.w. --> 1. how to install pandas?  --pip  install pandas
+# 2. check pandas version? -- pd.__version__
+# 3. how to list all the functions in pandas module? -- dir()
+# 4. how to print all the columns which are not object data type? -- cols = [i for i in cols if not df.select_dtyes('O)]
 # ----------------------------------------------------------------------------------------
 from reusable_pandas import read_file, convert_column_to_upper, convert_to_upper, convert_yes_no
 
@@ -48,5 +48,8 @@ df['MARITAL STATUS'] = df['MARITAL STATUS'].map(d)
 
 --------------------------------------------------------------------------------
 # # h.w. : 
-#     1. check how many months are there and there value?
-#     2. unique values in the age group?
+#     1. check how many months are there and there value? -- df2.Month.value_counts()
+#     2. unique values in the age group? -->df2['AGE GROUP'].unique()
+
+
+# -----------------------------------------------------------------
