@@ -9,3 +9,11 @@ Print(df2.month_count())
 Print (df2['MAY'].unique())
 Unique values based on age group
 Print(df2['AGE GROUP'].unique())
+
+Total git commands
+1. Git push - send the data from local repo to remote or global repo
+2. Git pull - pulls the data from global repo to local repo
+3. Git merge - merges the global repo with your local repo to update
+4. Git add - add a git url as an alias
+5. Git fetch - fetch all the branches from the global repo
+6. Git log - see the history/logs
