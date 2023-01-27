@@ -9,7 +9,7 @@ pipeline {
         
         stage('Clone SCM') {
             steps{
-                bat 'rmdir /s /q devops-batch-sam;'
+                // bat 'rmdir /s /q devops-batch-sam;'
                 bat "git clone https://github.com/GuptaTanay/devops-batch-sam.git"
             }
         }
